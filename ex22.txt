@@ -1,0 +1,21 @@
+$stdin - this takes input from user and making it a global variable. Meaning the variable can be accessed anywhere in the program or script. This also comes with some built-in methods
+STDIN - this in again input but it is a constant.
+puts - prints statements to the screen
+\n - new carriage line
+\t - puts indentation in string
+\\ - escaping characters. This is mostly used for escaping special characters in the code
+gets.chomp - this prompts for input and "chomps" off the last part of the input (new line/space) 
+.to_i - changes the data format to an integer 
+.to_s - changes the data structure to a string 
+.to_f - changes the data format to a float 
+.to_a - changes the data structure to an array
+ARGV - this takes arguments from user through CLI
+.first - built in method that takes the first arguement or value 
+.read - built in File method that reads a file 
+.write() - writes to a file. Takes an argument,  what to write in the parenthesis as a string. This will overwrite the file
+.close - it is good practice to close a file after finishing with it
+"a" - the append option that writes to the bottom of a text file  
+*args - all the arguments 
+#{} - interpolation, drops in variable value inside a string
+def - function is being defined
+return - return the values after evaluation 
